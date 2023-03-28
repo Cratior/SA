@@ -1,0 +1,58 @@
+#container {
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+}
+
+#bars {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-end;
+	height: 400px;
+}
+
+.bar {
+	flex: 1;
+	margin: 0 0;
+	background-color: blue;
+}
+
+.bar.active {
+	background-color: red;
+}
+
+.bar.sorted {
+	background-color: green;
+}
+
+#buttons {
+	margin-top: 20px;
+}
+
+button {
+	margin: 0 5px;
+}
+
+label {
+	margin-right: 5px;
+}
+
+#cheat-sheet {
+	margin-top: 20px;
+	text-align: left;
+}
+
+#cheat-sheet h2 {
+	margin-bottom: 10px;
+}
+
+#cheat-sheet ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#cheat-sheet li {
+	margin-bottom: 5px;
+}
